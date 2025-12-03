@@ -18,6 +18,14 @@
             background-color: #121212 !important;
             color: #e0e0e0 !important;
         }
+        html.dark-mode h1,
+        html.dark-mode h2,
+        html.dark-mode h3,
+        html.dark-mode h4 {
+            color: #c0c7d1 !important;   /* 柔和浅灰蓝 */
+            line-height: normal;
+        }
+
         /* 去掉部分文字的白色阴影 */
         html.dark-mode #userMenu a {
             text-shadow: none !important;
@@ -37,6 +45,12 @@
             background: #193b63 !important; /* 蓝黑提升 */
             color: #eaf6ff !important;
         }
+
+        html.dark-mode .group-panel .current {
+            background-color: #2a3b55 !important; /* 深蓝灰背景 */
+            color: #eaf6ff !important;            /* 浅蓝文字 */
+        }
+
         html.dark-mode #topMenu .current-show a {
             background: #0a3d62 !important;          /* 深蓝背景 */
             border-color: #2a3b55 #2a3b55 #0a3d62 !important;
@@ -109,6 +123,8 @@
             background-color: #1e3a5a !important;
             color: #eaf2ff !important;
         }
+
+        /* account-list 下拉菜单 */
         html.dark-mode #userToolbar .account-list {
             background: #1a2233 !important;              /* 蓝黑背景替代原图 */
             border: 1px solid #2a3b55 !important;        /* 深蓝灰边框 */
